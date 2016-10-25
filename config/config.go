@@ -21,6 +21,7 @@ type Mount struct {
 // Server is a struct for the runtime server
 type Server struct {
 	Runtime             string
+	RuntimePluginPath   string
 	RuntimeTLSClient    bool
 	RuntimeTLSServer    bool
 	MaxBuilds           int
